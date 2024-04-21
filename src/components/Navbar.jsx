@@ -50,6 +50,7 @@ export default function Navbar() {
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
+
       {/* Mobile Menu */}
       <ul
         // using bg to hide everything behind when the menu appears
@@ -96,7 +97,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/nikhil-ojha-108388229/"
+              href="https://github.com/yourstrulynik"
               target="_blank"
               rel=" noopener noreferrer"
             >
@@ -105,7 +106,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/nikhil-ojha-108388229/"
+              href="mailto:nikhilojha05@gmail.com"
               target="_blank"
               rel=" noopener noreferrer"
             >
@@ -114,7 +115,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/nikhil-ojha-108388229/"
+              href="https://www.dropbox.com/scl/fo/6j5z4pd4at7mudtg18bw7/AHw6lFesgEqXXA1_41oT29o?rlkey=gh031qopkqflzfzqwndd8tivj&st=c3mk175p&dl=0"
               target="_blank"
               rel=" noopener noreferrer"
             >
@@ -158,7 +159,7 @@ export default function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-900 ">
             <a
               className="flex justify-between items-center w-full text-white"
-              href="https://drive.google.com/drive/folders/1nIG2ZwcgNJwanbaHWnNpWjqfwNEbdxi4?usp=sharing"
+              href="https://www.dropbox.com/scl/fo/6j5z4pd4at7mudtg18bw7/AHw6lFesgEqXXA1_41oT29o?rlkey=gh031qopkqflzfzqwndd8tivj&st=c3mk175p&dl=0"
               target="_blank"
               rel=" noopener noreferrer"
             >
