@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Raleway";
+  src: url(./assets/fonts/Raleway-Regular.ttf);
+}
+
+@layer base {
+  body {
+    @apply font-Raleway;
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer
+  }
+}
+.content-div{
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  height: 250px;
+}
